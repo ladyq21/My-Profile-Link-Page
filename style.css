@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Colors */
+:root{
+    --color1: hsl(75, 94%, 57%);
+    --color2: hsl(0, 0%, 100%);
+    --color3: hsl(0, 0%, 20%);
+    --color4: hsl(0, 0%, 12%);
+    --color5: hsl(0, 0%, 8%);
+}
+/* Font Link */
+@font-face{
+    font-family: Inter;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+    font-weight: 400, 600, 700;
+}
+/* Body Tag */
+body{
+    background-color: var(--color5);
+    width: 900px;
+    margin: 0 auto;
+    padding: 110px;
+}
+.box{
+    background-color: var(--color4);
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    height: 90vh;
+}
+header{
+    text-align: center;
+}
+img{
+    width: 40%;
+    border-radius: 100px;
+    padding: 10px;
+}
+h2{
+    color: var(--color2);
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}    
+}
+h3{
+    color: var(--color1);
+    padding: 10px ;
+}
+p{
+    color: var(--color2);
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+}
+body .buttons{
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 100%;
+}
+body button{
+    background-color: var(--color3);
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+body button a{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 18px;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    transition: 0.3s;
+}
+button a:hover{
+    color: hsl(0, 0%, 20%);
+    transition: 0.3s;
+}
+.git{
+    padding: 10px;
+}
+.git button{
+    height: 6vh;
+}
+.front{
+    padding: 10px;
+}
+.front button{
+    height: 6vh;
+}
+.link{
+    padding: 10px;
+}
+.link button{
+    height: 6vh;
+}
+.twit{
+    padding: 10px;
+}
+.twit button{
+    height: 6vh;
+}
+.ig{
+    padding: 10px;
+}
+.ig button{
+    height: 6vh;
+}
