@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,11 +26,10 @@ body{
 }
 .box{
     background-color: var(--color4);
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
-    padding: 30px;
     border-radius: 10px;
-    height: 86vh;
+    height: auto;
 }
 header{
     text-align: center;
@@ -58,9 +57,8 @@ p{
     text-align: center;
 }
 body .buttons{
-    padding: 10px 0;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
 }
 body button{
     background-color: var(--color3);
@@ -103,10 +101,10 @@ button a:hover{
 .link button{
     height: 6vh;
 }
-.twit{
+.x{
     padding: 10px;
 }
-.twit button{
+.x button{
     height: 6vh;
 }
 .ig{
