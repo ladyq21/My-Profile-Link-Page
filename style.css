@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 /* Colors */
 :root{
     --color1: hsl(75, 94%, 57%);
@@ -19,17 +19,26 @@
 }
 /* Body Tag */
 body{
-    background-color: var(--color5);
-    width: 900px;
+    background-color: black;
+    width: 1440px;
     margin: 0 auto;
-    padding: 110px;
+    /* overflow: hidden; */
+
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--color5);
+    position: relative;
+    padding: 100px;
 }
 .box{
     background-color: var(--color4);
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
+    position: relative;
     border-radius: 10px;
-    height: auto;
+    padding: 20px;
 }
 header{
     text-align: center;
@@ -41,75 +50,82 @@ img{
 }
 h2{
     color: var(--color2);
-@font-face {
+    text-align: center;
     font-family: Inter;
     src: url(assets/fonts/static/Inter-Regular.ttf);
-}    
 }
 h3{
     color: var(--color1);
     padding: 10px ;
+    font-family: Inter;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+    font-weight: 700;
+    font-size: 14px;
 }
 p{
     color: var(--color2);
     font-weight: lighter;
     font-size: 15px;
     text-align: center;
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    padding: 20px;
 }
 body .buttons{
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    padding: 0;
+
 }
-body button{
+body a button{
     background-color: var(--color3);
     margin: 0 auto;
     width: 100%;
-    border-radius: 7px;
+    height: 6vh;
+    border-radius: 10px;
     outline: none;
     border: none;
 }
-body button a{
+.buttons a button{
     text-align: center;
     color: hsl(0, 0%, 100%);
     text-decoration: none;
     font-size: 18px;
+
 }
-button:hover{
+ a button:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
     transition: 0.3s;
 }
-button a:hover{
-    color: hsl(0, 0%, 20%);
-    transition: 0.3s;
+.btn{
+    padding: 7px;
+    width: 100%;
+    margin: 0 auto;
+
 }
-.git{
-    padding: 10px;
-}
-.git button{
-    height: 6vh;
-}
-.front{
-    padding: 10px;
-}
-.front button{
-    height: 6vh;
-}
-.link{
-    padding: 10px;
-}
-.link button{
-    height: 6vh;
-}
-.x{
-    padding: 10px;
-}
-.x button{
-    height: 6vh;
-}
-.ig{
-    padding: 10px;
-}
-.ig button{
-    height: 6vh;
-}
+
+@media screen and (max-width:375px) {
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+    .main{
+        width: 375px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .box{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+        padding: 0;
+    }
+    body .buttons{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    
+    }
+}  
